@@ -1,30 +1,78 @@
 .logo {
-  display: block;
+  margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-}
-li {
-  display: inline;
-  margin-left: 10px;
-}
-.search {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
-#searchbar {
-  width: 25%;
-  border-radius: 10px;
+#top-nav {
+  width: 100%;
+  display: inline-block;
+}
+
+#top-nav li a {
+  color: black;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 30px;
+    font-size: 15px;
+}
+
+li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  padding: 16px 7.5px;
+}
+.right {
+  float: right;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  width: 45%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
 }
 
 .buttons {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   position: relative;
+}
+
+button {
+  height: 35px;
+  width: 10%;
+  margin-left: 10px;
+  border: white;
+  background-color: lightgray;
+}
+
+#bottom-nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: black;
+  font-size: 14px;
+  background-color: lightgray;
+}
+
+#bottom-nav li a {
+  color: black;
 }
